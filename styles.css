@@ -1,0 +1,129 @@
+body {
+    background: white;
+    color: rgb(219, 218, 218);
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+/* Upper Nav */
+.navbar {
+    height: 20px;
+    margin-top: 0px
+}
+
+.navbar button {
+    background-color: rgb(63, 172, 245);
+    color: white;
+    border: 0px;
+    height: 30px;
+    width: 65px;
+    margin: 15px 20px 0px 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.navbar i {
+    color: black;
+    padding: 15px;
+}
+
+.navbar a {
+    float:  left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {color: black;
+    text-decoration: underline;
+}
+
+  
+
+
+
+
+
+
+
+/* Logo and Search Bar */
+
+#logo-container {
+    clear: both;
+}
+
+img {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+
+.searchbar-conatiner {
+    position: absolute;
+    color: white;
+    width: 100%;
+    margin-bottom: 0px;
+}  
+
+.button-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;   
+}
+
+.google-search {
+    text-align: center;
+    background: rgb(205, 205, 205);
+    border: 0;
+    border-radius: 3px;
+    padding: 15px;
+    margin: 0px 5px 0px 5px;
+}
+
+#search-bar {
+  border-radius: 24px;
+  border-width: 1px;
+  border-color: black;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 400px;
+  margin-bottom: 100px;
+  padding: 10px 40px 10px 40px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    display: block;
+    position: relative;
+    bottom: 0;
+    height: 50px;
+    border-top: 1px #b4b4b4e6 solid;
+    background: rgb(243, 243, 243);
+    position: absolute;
+}
+
+.bottombar a {
+    float:  left;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
